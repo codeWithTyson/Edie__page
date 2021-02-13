@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./app/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./app/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+        
+    <title>Edie HomePage</title>
+</head>
+
+<body>
+
+    <!-- navigation  -->
+    <nav class="nav">
+        <a class="nav__logo" href="index.html">Edie</a>
+        <ul class="list nav--active-list">
+            <li class="list__item">
+                <a href="#" class="list__link list__link--active">Home</a>
+            </li>
+            <li class="list__item">
+                <a href="#" class="list__link">Services</a>
+            </li>
+            <li class="list__item">
+                <a href="#" class="list__link">our Works</a>
+            </li>
+            <li class="list__item">
+                <a href="#" class="list__link">Clients</a>
+            </li>
+            <li class="list__item">
+                <a href="#" class="list__link">Contacts</a>
+            </li>
+        </ul>
+
+        <div class="hamberger">
+            <i class="fas fa-bars hamberger__icon hamberger--active-open"></i>
+            <i class="fas fa-times hamberger__icon hamberger__icon--close"></i>
+        </div>
+    </nav>
+    <!-- // End navigation  -->
+
+    <!-- ctr Section  -->
+    <section class="ctr mt-9">
+        <h4 class="ctr__sub">Unhappy with your website?</h4>
+        <h1 class="ctr__txt">We create beautiful <br> and fast web services</h1>
+    </section> <!-- End ctr Section  -->
+
+    <section class="hero">
+        <div class="hero__img"></div>
+    </section>
+
+      <!-- ctr Section  -->
+      <section class="ctr mt-5">
+        <h1 class="ctr__txt">Story, emotion <br> and purpose</h1>
+        <p class="ctr__para">
+            We help transform your ideas into real world applications that will <br> outperform your toughest competition and help you achieve your strategic <br>goals in short period of time. 
+        </p>
+
+        <form class="ctr__form">
+            <span class="ctr__form-txt">Want us to contact you?</span>
+            <div class="ctr__form-group">
+                <input type="email" placeholder="Email" required>
+                <input type="submit" value="join">
+            </div>
+        </form>
+    </section> <!-- End ctr Section  -->
+
+    <!-- service  -->
+    <section class="service">
+        <h1 class="service__ctr">We offer high <br> demand services  </h1>
+        <div class="card">
+            <!-- card 01  -->
+            <div class="card__box">
+                <span class="card__box-icon card__box-icon--blue ">
+                    <i class="fas fa-pencil-alt"></i>
+                </span>
+                <h2 class="card__box-title">UI/UX Design</h2>
+                <p class="card__box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                <a class="card__box-btn">Get Started</a>
+            </div>
+            <!-- card 02  -->
+            <div class="card__box">
+                <span class="card__box-icon card__box-icon--green">
+                    <i class="fas fa-code"></i>
+                </span>
+                <h2 class="card__box-title">Frontend</h2>
+                <p class="card__box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                <a class="card__box-btn">Get Started</a>
+            </div>
+            <!-- card 03  -->
+            <div class="card__box">
+                <span class="card__box-icon card__box-icon--red">
+                    <i class="fas fa-book"></i>
+                </span>
+                <h2 class="card__box-title">Backend</h2>
+                <p class="card__box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                <a class="card__box-btn">Get Started</a>
+            </div>
+        </div>
+    </section> <!-- // End Service Section -->
+
+    <!-- showcase  -->
+    <section class="showcase">
+        <h1 class="showcase__ctr">Good design means <br> good business </h1>
+
+        <!-- Top Gallery  -->
+        <div class="gallery">
+            <div class="gallery__box gallery__box--stack">
+                <img class="gallery__box-image" src="./app/img/smarthome.jpg" alt="image not found">
+                <h4 class="gallery__box-sub">Full stack application</>
+                <h2 class="gallery__box-title">Smart home dashboard</h2>
+            </div>
+            <div class="gallery__box">
+                <img class="gallery__box-image" src="./app/img/onboard.png" alt="image not found">
+                <h4 class="gallery__box-sub">UX/UI design</span>
+                <h2 class="gallery__box-title">Onboard application</h2>
+            </div>
+        </div>
+        <!-- bottom Gallery  -->
+        <div class="gallery gallery--mid" style="margin-top: -4rem">
+            <div class="gallery__box gallery__box--stack">
+                <img class="gallery__box-image" src="./app/img/booking.png" alt="image not found">
+                <h4 class="gallery__box-sub">Mobile application</h4>
+                <h2 class="gallery__box-title">Booking System</h2>
+            </div>
+            <div class="gallery__box">
+                <img class="gallery__box-image" src="./app/img/juice-product.png" alt="image not found">
+                <h4 class="gallery__box-sub">Front End application</span>
+                <h2 class="gallery__box-title">Juice product homepage</h2>
+            </div>
+
+        </div>
+        
+        
+        <div style="text-align: right;">
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+    <!-- // End showcase  -->
+
+    <!-- team  -->
+    <section class="team">
+        <div class="ctr" style="padding-left: 0;">
+            <h4 class="ctr__sub">Meet the team</h4>
+            <h1 class="ctr__txt">We are chilled <br> and a laidback <br> team</h1>
+            <p class="ctr__para">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+        </div>
+        <div class="team__images">
+            <img class="team__images--left" src="./app/img/person3.png" alt="team not found">
+            <div class="team__images--right">
+                <img src="./app/img/person1.png" alt="team not found">
+                <img src="./app/img/person2.png" alt="team not found">
+            </div>
+        </div>
+    </section> <!-- // End team  -->
+
+    <!-- info  -->
+    <section class="info">
+        <p class="info__para">“Fast and outstanding resutls. Edie understands <br> their customer’s needs. They have a young and <br> talented team.”</p>
+        <div class="info__user">
+            <img src="./app/img/person4.png" alt="person not found">
+            <div class="content">
+                <h5 class="content__title">Carlos Tran</h5>
+                <span class="content__subtitle">The Decorate Gatsby</span>
+            </div>
+        </div>
+    </section> <!-- // End Info-->
+
+    <footer class="footer">
+        <ul class="footer_list">
+            <li class="footer_list_item">
+                <a href="#" class="footer_list_item__link">Home</a>
+            </li>
+            <li class="footer_list_item">
+                <a href="#" class="footer_list_item__link">Services</a>
+            </li>
+            <li class="footer_list_item">
+                <a href="#" class="footer_list_item__link">our Works</a>
+            </li>
+            <li class="footer_list_item">
+                <a href="#" class="footer_list_item__link">Clients</a>
+            </li>
+            <li class="footer_list_item">
+                <a href="#" class="footer_list_item__link">Contacts</a>
+            </li>
+        </ul>
+
+        <div class="footer_social">
+            <h3 class="social__title">Edie</h3>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+
+        <form class="ctr__form">
+            <span class="ctr__form-txt">Want us to contact you?</span>
+            <div class="ctr__form-group">
+                <input type="email" placeholder="Email" required>
+                <input type="submit" value="join">
+            </div>
+        </form>
+    </footer>
+
+    <p class="ref">faisalTariq @ DevChallenges.io</p>
+
+    <!-- custom Javascript  -->
+    <script src="./app/js/script.js"></script>
+</body>
+
+</html>
